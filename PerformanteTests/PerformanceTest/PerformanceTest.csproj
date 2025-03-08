@@ -7,4 +7,12 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="NBomber" Version="5.8.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="reports\" />
+    </ItemGroup>
+
 </Project>
