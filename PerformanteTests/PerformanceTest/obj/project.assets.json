@@ -31,6 +31,19 @@
           }
         }
       },
+      "CsvHelper/30.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FSharp.Core/9.0.100": {
         "type": "package",
         "compile": {
@@ -554,6 +567,24 @@
         },
         "runtime": {
           "lib/netstandard2.1/NBomber.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NBomber.Data/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "CsvHelper": "30.0.1",
+          "FSharp.Core": "7.0.0",
+          "NBomber.Contracts": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NBomber.Data.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NBomber.Data.dll": {
             "related": ".xml"
           }
         }
@@ -2054,6 +2085,30 @@
         "lib/netstandard1.3/ConsoleTables.pdb"
       ]
     },
+    "CsvHelper/30.0.1": {
+      "sha512": "rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "type": "package",
+      "path": "csvhelper/30.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.30.0.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/net6.0/CsvHelper.dll",
+        "lib/net6.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
     "FSharp.Core/9.0.100": {
       "sha512": "ye8yagHGsH08H2Twno5GRWkSbrMtxK/SWiHuPcF+3nODpW65/VJ8RO0aWxp8n9+KQbmahg90wAEL3TEXjF0r6A==",
       "type": "package",
@@ -2747,6 +2802,21 @@
         "lib/netstandard2.1/NBomber.Contracts.xml",
         "nbomber.contracts.5.6.1.nupkg.sha512",
         "nbomber.contracts.nuspec",
+        "nbomber_icon.png"
+      ]
+    },
+    "NBomber.Data/5.0.0": {
+      "sha512": "witChjgEXg7u5/Jr1P3joQ7hjfaHMm4pHxQF1122SsQG5wDtlG1mcaiJkXjnmlrkldNi0GvLjd+yMaabFUtE0A==",
+      "type": "package",
+      "path": "nbomber.data/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/NBomber.Data.dll",
+        "lib/netstandard2.0/NBomber.Data.xml",
+        "nbomber.data.5.0.0.nupkg.sha512",
+        "nbomber.data.nuspec",
         "nbomber_icon.png"
       ]
     },
@@ -6255,6 +6325,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "NBomber >= 5.8.2",
+      "NBomber.Data >= 5.0.0",
       "NBomber.Http >= 5.2.1"
     ]
   },
@@ -6303,6 +6374,10 @@
           "NBomber": {
             "target": "Package",
             "version": "[5.8.2, )"
+          },
+          "NBomber.Data": {
+            "target": "Package",
+            "version": "[5.0.0, )"
           },
           "NBomber.Http": {
             "target": "Package",

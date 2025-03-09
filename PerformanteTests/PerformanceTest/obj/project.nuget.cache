@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KD/NFJufJEk=",
+  "dgSpecHash": "nwad0aY/Q00=",
   "success": true,
   "projectFilePath": "/Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/PerformanceTest.csproj",
   "expectedPackageFiles": [
     "/Users/muratseker/.nuget/packages/commandlineparser/2.9.1/commandlineparser.2.9.1.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/consoletables/2.4.2/consoletables.2.4.2.nupkg.sha512",
+    "/Users/muratseker/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/fsharp.core/9.0.100/fsharp.core.9.0.100.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/fsharp.json.new/0.4.2/fsharp.json.new.0.4.2.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/fsharp.umx/1.1.0/fsharp.umx.1.1.0.nupkg.sha512",
@@ -35,6 +36,7 @@
     "/Users/muratseker/.nuget/packages/nats.client/1.1.6/nats.client.1.1.6.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/nbomber/5.8.2/nbomber.5.8.2.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/nbomber.contracts/5.6.1/nbomber.contracts.5.6.1.nupkg.sha512",
+    "/Users/muratseker/.nuget/packages/nbomber.data/5.0.0/nbomber.data.5.0.0.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/nbomber.http/5.2.1/nbomber.http.5.2.1.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/netstandard.library/1.6.1/netstandard.library.1.6.1.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.2/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

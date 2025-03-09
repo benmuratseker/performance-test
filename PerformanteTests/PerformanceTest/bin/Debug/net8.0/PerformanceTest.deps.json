@@ -9,6 +9,7 @@
       "PerformanceTest/1.0.0": {
         "dependencies": {
           "NBomber": "5.8.2",
+          "NBomber.Data": "5.0.0",
           "NBomber.Http": "5.2.1"
         },
         "runtime": {
@@ -31,6 +32,14 @@
           "lib/netcoreapp3.1/ConsoleTables.dll": {
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.4.2.0"
+          }
+        }
+      },
+      "CsvHelper/30.0.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "30.0.0.0",
+            "fileVersion": "30.0.1.0"
           }
         }
       },
@@ -388,6 +397,19 @@
           "lib/netstandard2.1/NBomber.Contracts.dll": {
             "assemblyVersion": "5.6.1.0",
             "fileVersion": "5.6.1.0"
+          }
+        }
+      },
+      "NBomber.Data/5.0.0": {
+        "dependencies": {
+          "CsvHelper": "30.0.1",
+          "FSharp.Core": "9.0.100",
+          "NBomber.Contracts": "5.6.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NBomber.Data.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -1205,6 +1227,13 @@
       "path": "consoletables/2.4.2",
       "hashPath": "consoletables.2.4.2.nupkg.sha512"
     },
+    "CsvHelper/30.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rcZtgbWR+As4G3Vpgx0AMNmShGuQLFjkHAPIIflzrfkJCx8/AOd4m96ZRmiU1Wi39qS5UVjV0P8qdgqOo5Cwyg==",
+      "path": "csvhelper/30.0.1",
+      "hashPath": "csvhelper.30.0.1.nupkg.sha512"
+    },
     "FSharp.Core/9.0.100": {
       "type": "package",
       "serviceable": true,
@@ -1407,6 +1436,13 @@
       "sha512": "sha512-8AxHkGXgdDju5VjQSHu9/Ds7tQxNAfzKe44Xsr02eDjNi8qbnzYnlFY/j/k6PFaXjYFLbNGuqZsHPY3RI/weJA==",
       "path": "nbomber.contracts/5.6.1",
       "hashPath": "nbomber.contracts.5.6.1.nupkg.sha512"
+    },
+    "NBomber.Data/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-witChjgEXg7u5/Jr1P3joQ7hjfaHMm4pHxQF1122SsQG5wDtlG1mcaiJkXjnmlrkldNi0GvLjd+yMaabFUtE0A==",
+      "path": "nbomber.data/5.0.0",
+      "hashPath": "nbomber.data.5.0.0.nupkg.sha512"
     },
     "NBomber.Http/5.2.1": {
       "type": "package",
