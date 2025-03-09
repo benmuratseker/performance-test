@@ -68,3 +68,4 @@
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/obj/Debug/net8.0/PerformanceTest.pdb
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/obj/Debug/net8.0/PerformanceTest.genruntimeconfig.cache
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/obj/Debug/net8.0/ref/PerformanceTest.dll
+/Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/NBomber.Http.dll

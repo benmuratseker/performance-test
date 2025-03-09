@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v8.0": {
       "PerformanceTest/1.0.0": {
         "dependencies": {
-          "NBomber": "5.8.2"
+          "NBomber": "5.8.2",
+          "NBomber.Http": "5.2.1"
         },
         "runtime": {
           "PerformanceTest.dll": {}
@@ -387,6 +388,18 @@
           "lib/netstandard2.1/NBomber.Contracts.dll": {
             "assemblyVersion": "5.6.1.0",
             "fileVersion": "5.6.1.0"
+          }
+        }
+      },
+      "NBomber.Http/5.2.1": {
+        "dependencies": {
+          "FSharp.Core": "9.0.100",
+          "NBomber.Contracts": "5.6.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/NBomber.Http.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
           }
         }
       },
@@ -1394,6 +1407,13 @@
       "sha512": "sha512-8AxHkGXgdDju5VjQSHu9/Ds7tQxNAfzKe44Xsr02eDjNi8qbnzYnlFY/j/k6PFaXjYFLbNGuqZsHPY3RI/weJA==",
       "path": "nbomber.contracts/5.6.1",
       "hashPath": "nbomber.contracts.5.6.1.nupkg.sha512"
+    },
+    "NBomber.Http/5.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/AvVE6rvtvkS6bqdZyBDp58VzECiSOYPFsu2hdlLGtihR7ajR1tZow+9ALAL01a/H148f+3C/MvWTdxNnTHTPg==",
+      "path": "nbomber.http/5.2.1",
+      "hashPath": "nbomber.http.5.2.1.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

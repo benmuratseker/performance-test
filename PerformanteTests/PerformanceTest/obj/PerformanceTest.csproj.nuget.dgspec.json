@@ -46,6 +46,10 @@
             "NBomber": {
               "target": "Package",
               "version": "[5.8.2, )"
+            },
+            "NBomber.Http": {
+              "target": "Package",
+              "version": "[5.2.1, )"
             }
           },
           "imports": [

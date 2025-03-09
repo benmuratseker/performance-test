@@ -558,6 +558,19 @@
           }
         }
       },
+      "NBomber.Http/5.2.1": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "9.0.100",
+          "NBomber.Contracts": "5.6.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/NBomber.Http.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/NBomber.Http.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -2734,6 +2747,20 @@
         "lib/netstandard2.1/NBomber.Contracts.xml",
         "nbomber.contracts.5.6.1.nupkg.sha512",
         "nbomber.contracts.nuspec",
+        "nbomber_icon.png"
+      ]
+    },
+    "NBomber.Http/5.2.1": {
+      "sha512": "/AvVE6rvtvkS6bqdZyBDp58VzECiSOYPFsu2hdlLGtihR7ajR1tZow+9ALAL01a/H148f+3C/MvWTdxNnTHTPg==",
+      "type": "package",
+      "path": "nbomber.http/5.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.1/NBomber.Http.dll",
+        "nbomber.http.5.2.1.nupkg.sha512",
+        "nbomber.http.nuspec",
         "nbomber_icon.png"
       ]
     },
@@ -6227,7 +6254,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "NBomber >= 5.8.2"
+      "NBomber >= 5.8.2",
+      "NBomber.Http >= 5.2.1"
     ]
   },
   "packageFolders": {
@@ -6275,6 +6303,10 @@
           "NBomber": {
             "target": "Package",
             "version": "[5.8.2, )"
+          },
+          "NBomber.Http": {
+            "target": "Package",
+            "version": "[5.2.1, )"
           }
         },
         "imports": [
