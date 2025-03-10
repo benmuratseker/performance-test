@@ -71,3 +71,4 @@
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/NBomber.Http.dll
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/CsvHelper.dll
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/NBomber.Data.dll
+/Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/IdentityModel.dll

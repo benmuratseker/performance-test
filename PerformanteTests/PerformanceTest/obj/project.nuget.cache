@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nwad0aY/Q00=",
+  "dgSpecHash": "EGow1enIXNU=",
   "success": true,
   "projectFilePath": "/Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/PerformanceTest.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "/Users/muratseker/.nuget/packages/funcydown/1.4.2/funcydown.1.4.2.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/hdrhistogram/2.5.0/hdrhistogram.2.5.0.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/icedtasks/0.7.0/icedtasks.0.7.0.nupkg.sha512",
+    "/Users/muratseker/.nuget/packages/identitymodel/7.0.0/identitymodel.7.0.0.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/messagepack/2.5.192/messagepack.2.5.192.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/messagepack.annotations/2.5.192/messagepack.annotations.2.5.192.nupkg.sha512",
     "/Users/muratseker/.nuget/packages/messagepack.fsharpextensions/4.0.0/messagepack.fsharpextensions.4.0.0.nupkg.sha512",
