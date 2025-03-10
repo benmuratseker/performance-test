@@ -58,6 +58,10 @@
             "NBomber.Http": {
               "target": "Package",
               "version": "[5.2.1, )"
+            },
+            "NBomber.Sinks.InfluxDB": {
+              "target": "Package",
+              "version": "[5.1.1, )"
             }
           },
           "imports": [

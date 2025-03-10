@@ -64,12 +64,15 @@ using NBomber.CSharp;
 using NBomber.Http.CSharp;
 using IdentityModel.Client;
 using NBomber.Http;
+using NBomber.Sinks.InfluxDB;
 
 using var httpClient = new HttpClient();
 
 string _globalJwt = string.Empty;
 IDataFeed<string> categories = DataFeed.Random(new List<string> {"all", "boots", "equip", "kayak"});
 IDataFeed<int> productIds = DataFeed.Random<int>(new List<int> {1, 2, 3, 4, 5, 6});
+//influx
+InfluxDBSink _influxDbSink = new();
 
 var listScenario = Scenario.Create("get_product_list", async context =>
 {
@@ -112,10 +115,25 @@ var singleScenario = Scenario.Create("get_single_product", async context =>
         during: TimeSpan.FromSeconds(120))
 );
 
+//multiple scenario single
+// NBomberRunner
+//     .RegisterScenarios(listScenario, singleScenario)
+//     .WithWorkerPlugins(new HttpMetricsPlugin())
+//     .Run();
+
 NBomberRunner
     .RegisterScenarios(listScenario, singleScenario)
     .WithWorkerPlugins(new HttpMetricsPlugin())
+    .LoadInfraConfig("infra-config.json")
+    .WithReportingInterval(TimeSpan.FromSeconds(5))
+    .WithReportingSinks(_influxDbSink)
+    .WithTestSuite("CarvedRock")
+    .WithTestName("Get_requests")
     .Run();
-
-
 //run api with "dotnet run -c Release"    
+
+
+//docker pull influxdb:1.8.1
+//docker pull grafana/grafana:8.5.2
+//in the performance tests folder docker compose up --detach
+//docker compose down
