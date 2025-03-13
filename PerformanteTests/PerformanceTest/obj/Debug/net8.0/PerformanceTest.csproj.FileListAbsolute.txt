@@ -87,3 +87,4 @@
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.Messages.dll
 /Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/runtimes/win/lib/net8.0/System.Diagnostics.EventLog.dll
+/Users/muratseker/Documents/repos/performance-test/PerformanteTests/PerformanceTest/bin/Debug/net8.0/infra-config.json

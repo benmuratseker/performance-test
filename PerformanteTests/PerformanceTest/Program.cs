@@ -84,7 +84,7 @@ var listScenario = Scenario.Create("get_product_list", async context =>
 })
 .WithoutWarmUp()
 .WithLoadSimulations(
-    Simulation.RampingInject(rate: 300,
+    Simulation.RampingInject(rate: 200,
         interval:TimeSpan.FromSeconds(1),
         during:TimeSpan.FromSeconds(120))
 );
@@ -110,7 +110,7 @@ var singleScenario = Scenario.Create("get_single_product", async context =>
 })
 .WithoutWarmUp()
 .WithLoadSimulations(
-    Simulation.Inject(rate: 300,
+    Simulation.Inject(rate: 200,
         interval: TimeSpan.FromSeconds(1),
         during: TimeSpan.FromSeconds(120))
 );

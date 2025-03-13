@@ -20,4 +20,10 @@
       <Folder Include="reports\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="infra-config.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
 </Project>
